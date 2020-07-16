@@ -2,16 +2,16 @@ import { Finger, FingerCurl, FingerDirection } from '../FingerDescription';
 import GestureDescription from '../GestureDescription';
 
 
-// describe thumbs up gesture 👍
-const gestureDescription = new GestureDescription('thumbs up');
+// describe thumbs down gesture 👍
+const gestureDescription = new GestureDescription('thumbs down');
 
 // thumb:
 // - not curled
-// - vertical up (best) or diagonal up left / right
+// - vertical down (best) or diagonal up left / right
 gestureDescription.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0);
-gestureDescription.addDirection(Finger.Thumb, FingerDirection.VerticalUp, 1.0);
-gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalUpLeft, 0.5);
-gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalUpRight, 0.5);
+gestureDescription.addDirection(Finger.Thumb, FingerDirection.VerticalDown, 1.0);
+gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownLeft, 0.5);
+gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownRight, 0.5);
 
 // all other fingers:
 // - curled

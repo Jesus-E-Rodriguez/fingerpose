@@ -6,8 +6,8 @@ const gestureDescription = new GestureDescription('point down');
 
 gestureDescription.addCurl(Finger.Index, FingerCurl.NoCurl, 1.0);
 gestureDescription.addDirection(Finger.Index, FingerDirection.VerticalDown, 1.0);
-gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownLeft, 0.5);
-gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownRight, 0.5);
+gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownLeft, 0.25);
+gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownRight, 0.25);
 
 for (let finger of [Finger.Middle, Finger.Ring, Finger.Pinky]) {
   gestureDescription.addCurl(finger, FingerCurl.FullCurl, 1.0);

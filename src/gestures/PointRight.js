@@ -5,8 +5,8 @@ const gestureDescription = new GestureDescription('point right');
 
 gestureDescription.addCurl(Finger.Index, FingerCurl.NoCurl, 1.0);
 gestureDescription.addDirection(Finger.Index, FingerDirection.HorizontalRight, 1.0);
-gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalUpRight, 0.5);
-gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownRight, 0.5);
+gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalUpRight, 0.75);
+gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalDownRight, 0.75);
 
 for (let finger of [Finger.Thumb, Finger.Middle, Finger.Ring, Finger.Pinky]) {
   gestureDescription.addCurl(finger, FingerCurl.FullCurl, 1.0);

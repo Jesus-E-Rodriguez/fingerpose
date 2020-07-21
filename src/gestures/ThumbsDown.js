@@ -10,8 +10,8 @@ const gestureDescription = new GestureDescription('thumbs down');
 // - vertical down (best) or diagonal up left / right
 gestureDescription.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0);
 gestureDescription.addDirection(Finger.Thumb, FingerDirection.VerticalDown, 1.0);
-gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownLeft, 0.5);
-gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownRight, 0.5);
+gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownLeft, 0.25);
+gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownRight, 0.25);
 
 // all other fingers:
 // - curled

@@ -4,6 +4,7 @@ import GestureDescription from '../GestureDescription';
 const gestureDescription = new GestureDescription('thumbs left');
 
 gestureDescription.addCurl(Finger.Thumb, FingerCurl.NoCurl, 1.0);
+gestureDescription.addCurl(Finger.Thumb, FingerCurl.FullCurl, -1.0);
 gestureDescription.addDirection(Finger.Thumb, FingerDirection.HorizontalLeft, 1.0);
 gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalUpLeft, 0.5);
 gestureDescription.addDirection(Finger.Thumb, FingerDirection.DiagonalDownLeft, 0.5);

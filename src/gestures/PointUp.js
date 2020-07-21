@@ -17,7 +17,7 @@ gestureDescription.addDirection(Finger.Index, FingerDirection.DiagonalUpRight, 0
 // - curled
 // - horizontal left or right
 for (let finger of [Finger.Thumb, Finger.Middle, Finger.Ring, Finger.Pinky]) {
-	gestureDescription.addCurl(finger, FingerCurl.FullCurl, 2.0);
+  gestureDescription.addCurl(finger, FingerCurl.FullCurl, 2.0);
 }
 
 gestureDescription.setWeight(Finger.Index, 2);

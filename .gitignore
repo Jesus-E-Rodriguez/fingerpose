@@ -84,3 +84,6 @@ typings/
 .tern-port
 
 .DS_Store
+
+# visual studio files
+.vs/
